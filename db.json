@@ -1,0 +1,52 @@
+{
+  "carros": [
+    {
+      "id": 4,
+      "carro": "monza",
+      "ano": "2009",
+      "valor": 65534
+    },
+    {
+      "id": 5,
+      "carro": "hilux",
+      "ano": "2009",
+      "valor": 22211
+    },
+    {
+      "carro": "a",
+      "ano": "a",
+      "valor": "a",
+      "id": 6
+    },
+    {
+      "carro": "a",
+      "ano": "aa",
+      "valor": "a",
+      "cep": "58083-240",
+      "logradouro": "Rua Chico Xavier",
+      "complemento": "",
+      "bairro": "Indústrias",
+      "localidade": "João Pessoa",
+      "uf": "PB",
+      "ibge": "2507507",
+      "gia": "",
+      "ddd": "83",
+      "siafi": "2051",
+      "id": 7
+    }
+  ],
+  "usuarios": [
+    {
+      "nome": "Mauro",
+      "postagens": [
+        {}
+      ]
+    },
+    {
+      "nome": "Fiona",
+      "postagens": [
+        {}
+      ]
+    }
+  ]
+}

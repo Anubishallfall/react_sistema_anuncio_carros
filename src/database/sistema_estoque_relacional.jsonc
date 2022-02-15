@@ -1,0 +1,53 @@
+/*
+    sistema de estoque
+*/
+{
+    "fabricantes": [
+        {
+            "id": 1,
+            "nome": "vitarela",
+            "UF": "PE"
+        },
+        {
+            "id": 2,
+            "nome": "vitamassa",
+            "UF": "PE"
+        },
+        {
+            "id": 3,
+            "nome": "elizabete",
+            "UF": "PB"
+        },
+        {
+            "id": 4,
+            "nome": "sincera",
+            "UF": "PB"
+        },
+    ],
+    "produtos": [
+        {
+            "id": 1,
+            "nome": "treloso",
+            "quantidade": 100,
+            "fabricante_id": 1
+        },
+        {
+            "id": 2,
+            "nome": "biscoito",
+            "quantidade": 150,
+            "fabricante_id": 2
+        },
+        {
+            "id": 3,
+            "nome": "vazo sanitario",
+            "quantidade": 1000,
+            "fabricante_id": 3
+        },
+        {
+            "id": 4,
+            "nome": "tijolo",
+            "quantidade": 500,
+            "fabricante_id": 4
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "fabricantes": [
+        {
+            "id": 1,
+            "nome": "toyota",
+            "endereco_id": 1
+        }
+    ],
+    "enderecos": [
+        {
+            "id": 1,
+            "cep": "58083-240",
+            "logradouro": "Rua Chico Xavier",
+            "complemento": "",
+            "bairro": "Indústrias",
+            "localidade": "João Pessoa",
+            "uf": "PB",
+            "ibge": "2507507",
+            "gia": "",
+            "ddd": "83",
+            "siafi": "2051"
+        }
+    ],
+    "carros": [
+        {
+            "id": 1,
+            "modelo": "monza",
+            "ano": 1997,
+            "preço": 5000,
+            "fabricante_id": 1
+        },
+        {
+            "id": 2,
+            "modelo": "fusca tunado",
+            "ano": 1998,
+            "preço": 15000,
+            "fabricante_id": 1
+        }
+    ]
+}

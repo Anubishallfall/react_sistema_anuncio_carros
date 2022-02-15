@@ -1,0 +1,44 @@
+{
+    "carros": [
+        {
+            "id": 1,
+            "modelo": "Fiesta",
+            "ano": 1996,
+            "emplacamento": {
+                "placa": "HSDI8423",
+                "endereco": {
+                    "cep": "58083-240",
+                    "logradouro": "Rua Chico Xavier",
+                    "complemento": "",
+                    "bairro": "Indústrias",
+                    "localidade": "João Pessoa",
+                    "uf": "PB",
+                    "ibge": "2507507",
+                    "gia": "",
+                    "ddd": "83",
+                    "siafi": "2051"
+                }
+            }
+        },
+        {
+            "id": 2,
+            "modelo": "GOL",
+            "ano": 1996,
+            "emplacamento": {
+                "placa": "HHD5S123",
+                "endereco": {
+                    "cep": "58083-240",
+                    "logradouro": "Rua Chico Xavier",
+                    "complemento": "",
+                    "bairro": "Indústrias",
+                    "localidade": "João Pessoa",
+                    "uf": "PB",
+                    "ibge": "2507507",
+                    "gia": "",
+                    "ddd": "83",
+                    "siafi": "2051"
+                }
+            }
+        }
+    ]
+}
