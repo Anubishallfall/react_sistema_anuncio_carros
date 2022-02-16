@@ -39,19 +39,30 @@ export default function index() {
         })
     }
 
-    function handleAdicionarCarroALista(carro, ano, valor) {
+    async function handleAdicionarCarroALista(carro, ano, valor, cep) {
 
 
-        servicoCEP.get("/58083240/json").then(({ data }) => {
-            servico.post("/carros", {
-                carro: carro,
-                ano: ano,
-                valor: valor,
-                ...data
-            }).then(({ data: carro }) => {
-                setlistacarros([...listacarros, carro])
-            })
-        })
+        // servicoCEP.get("/58083240/json").then(({ data }) => {
+        //     servico.post("/carros", {
+        //         carro: carro,
+        //         ano: ano,
+        //         valor: valor,
+        //         ...data
+        //     }).then(({ data: carro }) => {
+        //         setlistacarros([...listacarros, carro])
+        //     })
+        // })
+
+        const { data: dadosDoCep } = await servicoCEP.get(`/${"58083240"}/json`);
+
+        const { data: carro } = await servico.post("/carros", {
+            carro: carro,
+            ano: ano,
+            valor: valor,
+            ...dadosDoCep
+        });
+
+        setlistacarros([...listacarros, carro])
 
     }
 
